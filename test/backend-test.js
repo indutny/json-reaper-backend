@@ -38,7 +38,10 @@ describe('JSON Reaper backend', () => {
           const stream = new PassThrough();
           stream.end(str);
 
-          c.append(stream, (err, start, length) => {
+          // Test on strings too
+          const input = str === 'and' ? str : stream;
+
+          c.append(input, (err, start, length) => {
             return callback(err, { start: start, length: length });
           });
         }, callback);
