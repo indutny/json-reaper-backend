@@ -1,0 +1,34 @@
+{
+  "name": "json-reaper-backend",
+  "version": "1.0.0",
+  "description": "Backend for JSON Reaper",
+  "main": "lib/backend.js",
+  "scripts": {
+    "test": "mocha --reporter=spec test/*-test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/indutny/json-reaper-backend.git"
+  },
+  "keywords": [
+    "JSON",
+    "Reaper",
+    "backend",
+    "zlib",
+    "chunks",
+    "comment",
+    "fcomment"
+  ],
+  "author": "Fedor Indutny <fedor@indutny.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/indutny/json-reaper-backend/issues"
+  },
+  "homepage": "https://github.com/indutny/json-reaper-backend#readme",
+  "dependencies": {
+    "async": "^2.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.5.3"
+  }
+}

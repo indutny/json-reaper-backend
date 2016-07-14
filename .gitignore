@@ -1,0 +1,4 @@
+example/output-file
+example/*.gz
+node_modules/
+npm-debug.log
